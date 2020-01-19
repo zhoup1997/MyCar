@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.ActivityChannelMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.ActivityChannel">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="is_deleted" jdbcType="TINYINT" property="isDeleted" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="last_update_time" jdbcType="BIGINT" property="lastUpdateTime" />
+    <result column="use_count" jdbcType="VARCHAR" property="useCount" />
+    <result column="sign" jdbcType="VARCHAR" property="sign" />
+  </resultMap>
+</mapper>

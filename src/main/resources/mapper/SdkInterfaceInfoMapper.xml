@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.SdkInterfaceInfoMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.SdkInterfaceInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="activity_id" jdbcType="INTEGER" property="activityId" />
+    <result column="cars_id" jdbcType="VARCHAR" property="carsId" />
+    <result column="activity_key" jdbcType="VARCHAR" property="activityKey" />
+    <result column="dealer" jdbcType="VARCHAR" property="dealer" />
+  </resultMap>
+</mapper>

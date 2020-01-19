@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.ArticleActionMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.ArticleAction">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="article_id" jdbcType="BIGINT" property="articleId" />
+    <result column="operator_uid" jdbcType="INTEGER" property="operatorUid" />
+    <result column="operator_username" jdbcType="VARCHAR" property="operatorUsername" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="operate_type" jdbcType="TINYINT" property="operateType" />
+  </resultMap>
+</mapper>

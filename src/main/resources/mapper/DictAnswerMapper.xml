@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.DictAnswerMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.DictAnswer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="weight_id" jdbcType="INTEGER" property="weightId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_name" jdbcType="VARCHAR" property="enName" />
+    <result column="adjust_value" jdbcType="INTEGER" property="adjustValue" />
+  </resultMap>
+</mapper>

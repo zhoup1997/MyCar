@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.SdkInterfaceParmMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.SdkInterfaceParm">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="interface_id" jdbcType="INTEGER" property="interfaceId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="parm_name" jdbcType="VARCHAR" property="parmName" />
+    <result column="data_type" jdbcType="INTEGER" property="dataType" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="is_required" jdbcType="INTEGER" property="isRequired" />
+    <result column="is_custom" jdbcType="INTEGER" property="isCustom" />
+    <result column="is_login" jdbcType="INTEGER" property="isLogin" />
+    <result column="activity_key" jdbcType="INTEGER" property="activityKey" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.SysMenuMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.SysMenu">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="menu_id" jdbcType="BIGINT" property="menuId" />
+    <result column="parent_id" jdbcType="BIGINT" property="parentId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="perms" jdbcType="VARCHAR" property="perms" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="icon" jdbcType="VARCHAR" property="icon" />
+    <result column="order_num" jdbcType="INTEGER" property="orderNum" />
+  </resultMap>
+
+  <select id="findMenuByPage" resultMap="BaseResultMap" parameterType="org.zhoup.service.dto.QueryDTO">
+      select m.*,n.name parentName from sys_menu m
+      left join sys_menu n
+      on m.parent_id = n.menu_id
+      <where>
+        <if test="search!=null and search!=''">
+          and m.name like concat('%',#{search},'%')
+        </if>
+      </where>
+        <if test="sort!=null and sort!=''">
+          and order by m.${sort} ${order}
+        </if>
+  </select>
+
+    <select id="findMenuTree" resultMap="BaseResultMap">
+        select * from sys_menu where type != 2
+    </select>
+
+</mapper>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.ArticleMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.Article">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="cover_pic" jdbcType="VARCHAR" property="coverPic" />
+    <result column="thumb_pic" jdbcType="VARCHAR" property="thumbPic" />
+    <result column="tags" jdbcType="VARCHAR" property="tags" />
+    <result column="preview_url" jdbcType="VARCHAR" property="previewUrl" />
+    <result column="qrcode_url" jdbcType="VARCHAR" property="qrcodeUrl" />
+    <result column="pv_count" jdbcType="INTEGER" property="pvCount" />
+    <result column="uv_count" jdbcType="INTEGER" property="uvCount" />
+    <result column="comment_count" jdbcType="INTEGER" property="commentCount" />
+    <result column="like_count" jdbcType="INTEGER" property="likeCount" />
+    <result column="fav_count" jdbcType="INTEGER" property="favCount" />
+    <result column="share_count" jdbcType="INTEGER" property="shareCount" />
+    <result column="channel_top" jdbcType="TINYINT" property="channelTop" />
+    <result column="home_top" jdbcType="TINYINT" property="homeTop" />
+    <result column="create_uid" jdbcType="INTEGER" property="createUid" />
+    <result column="create_uname" jdbcType="VARCHAR" property="createUname" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="submit_uid" jdbcType="INTEGER" property="submitUid" />
+    <result column="submit_time" jdbcType="BIGINT" property="submitTime" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="state_order" jdbcType="INTEGER" property="stateOrder" />
+    <result column="last_audit_uid" jdbcType="INTEGER" property="lastAuditUid" />
+    <result column="last_audit_username" jdbcType="VARCHAR" property="lastAuditUsername" />
+    <result column="last_audit_time" jdbcType="BIGINT" property="lastAuditTime" />
+    <result column="last_reject_reason" jdbcType="VARCHAR" property="lastRejectReason" />
+    <result column="publish_state" jdbcType="TINYINT" property="publishState" />
+    <result column="publish_uid" jdbcType="INTEGER" property="publishUid" />
+    <result column="publish_uname" jdbcType="VARCHAR" property="publishUname" />
+    <result column="publish_time" jdbcType="BIGINT" property="publishTime" />
+    <result column="unpublish_uid" jdbcType="INTEGER" property="unpublishUid" />
+    <result column="unpublish_uname" jdbcType="VARCHAR" property="unpublishUname" />
+    <result column="unpublish_time" jdbcType="BIGINT" property="unpublishTime" />
+    <result column="unpublish_reason" jdbcType="VARCHAR" property="unpublishReason" />
+    <result column="last_update_uid" jdbcType="INTEGER" property="lastUpdateUid" />
+    <result column="last_update_uname" jdbcType="VARCHAR" property="lastUpdateUname" />
+    <result column="last_update_time" jdbcType="BIGINT" property="lastUpdateTime" />
+    <result column="seo_keywords" jdbcType="VARCHAR" property="seoKeywords" />
+    <result column="seo_description" jdbcType="VARCHAR" property="seoDescription" />
+    <result column="allow_up" jdbcType="TINYINT" property="allowUp" />
+    <result column="allow_fav" jdbcType="TINYINT" property="allowFav" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>

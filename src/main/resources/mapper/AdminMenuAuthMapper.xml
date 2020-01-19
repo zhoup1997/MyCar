@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.AdminMenuAuthMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.AdminMenuAuth">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="SMALLINT" property="id" />
+    <result column="controller" jdbcType="VARCHAR" property="controller" />
+    <result column="action" jdbcType="VARCHAR" property="action" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="classname" jdbcType="VARCHAR" property="classname" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="type" jdbcType="TINYINT" property="type" />
+    <result column="parent_id" jdbcType="SMALLINT" property="parentId" />
+  </resultMap>
+</mapper>

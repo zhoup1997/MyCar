@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.ChooseLogMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.ChooseLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="member_id" jdbcType="VARCHAR" property="memberId" />
+    <result column="user_country" jdbcType="TINYINT" property="userCountry" />
+    <result column="user_space" jdbcType="VARCHAR" property="userSpace" />
+    <result column="user_power" jdbcType="VARCHAR" property="userPower" />
+    <result column="user_comfort" jdbcType="VARCHAR" property="userComfort" />
+    <result column="user_safe" jdbcType="VARCHAR" property="userSafe" />
+    <result column="user_cost" jdbcType="VARCHAR" property="userCost" />
+    <result column="user_min" jdbcType="VARCHAR" property="userMin" />
+    <result column="user_max" jdbcType="VARCHAR" property="userMax" />
+    <result column="user_ptime" jdbcType="VARCHAR" property="userPtime" />
+    <result column="user_car" jdbcType="VARCHAR" property="userCar" />
+    <result column="choose_car" jdbcType="VARCHAR" property="chooseCar" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+  </resultMap>
+</mapper>

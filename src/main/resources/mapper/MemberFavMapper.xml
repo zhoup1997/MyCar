@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.MemberFavMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.MemberFav">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="member_id" jdbcType="BIGINT" property="memberId" />
+    <result column="fav_type" jdbcType="TINYINT" property="favType" />
+    <result column="content_id" jdbcType="BIGINT" property="contentId" />
+    <result column="fav_time" jdbcType="BIGINT" property="favTime" />
+    <result column="fav_ip" jdbcType="VARCHAR" property="favIp" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.CarModelMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.CarModel">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="brand_id" jdbcType="INTEGER" property="brandId" />
+    <result column="brand_name" jdbcType="VARCHAR" property="brandName" />
+    <result column="make_id" jdbcType="INTEGER" property="makeId" />
+    <result column="make_name" jdbcType="VARCHAR" property="makeName" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="display_name" jdbcType="VARCHAR" property="displayName" />
+    <result column="other_name" jdbcType="VARCHAR" property="otherName" />
+    <result column="english_name" jdbcType="VARCHAR" property="englishName" />
+    <result column="country_class" jdbcType="INTEGER" property="countryClass" />
+    <result column="country_class_name" jdbcType="VARCHAR" property="countryClassName" />
+    <result column="body_form" jdbcType="INTEGER" property="bodyForm" />
+    <result column="body_form_name" jdbcType="VARCHAR" property="bodyFormName" />
+    <result column="price_low" jdbcType="DECIMAL" property="priceLow" />
+    <result column="price_high" jdbcType="DECIMAL" property="priceHigh" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="level_name" jdbcType="VARCHAR" property="levelName" />
+    <result column="level_second" jdbcType="INTEGER" property="levelSecond" />
+    <result column="level_second_name" jdbcType="VARCHAR" property="levelSecondName" />
+    <result column="sale_status" jdbcType="TINYINT" property="saleStatus" />
+    <result column="all_spell" jdbcType="VARCHAR" property="allSpell" />
+    <result column="country_id" jdbcType="INTEGER" property="countryId" />
+    <result column="country_name" jdbcType="VARCHAR" property="countryName" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="update_time" jdbcType="BIGINT" property="updateTime" />
+    <result column="sync_time" jdbcType="BIGINT" property="syncTime" />
+  </resultMap>
+</mapper>

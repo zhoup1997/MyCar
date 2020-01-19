@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.AdminUserMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.AdminUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="salt" jdbcType="VARCHAR" property="salt" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="is_super" jdbcType="TINYINT" property="isSuper" />
+    <result column="consumer" jdbcType="VARCHAR" property="consumer" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="dept" jdbcType="VARCHAR" property="dept" />
+  </resultMap>
+</mapper>

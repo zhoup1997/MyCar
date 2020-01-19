@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.CarBrandMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.CarBrand">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="other_name" jdbcType="VARCHAR" property="otherName" />
+    <result column="english_name" jdbcType="VARCHAR" property="englishName" />
+    <result column="country_id" jdbcType="INTEGER" property="countryId" />
+    <result column="logo_url" jdbcType="VARCHAR" property="logoUrl" />
+    <result column="logo_meaning" jdbcType="VARCHAR" property="logoMeaning" />
+    <result column="first_char" jdbcType="VARCHAR" property="firstChar" />
+    <result column="spell" jdbcType="VARCHAR" property="spell" />
+    <result column="all_spell" jdbcType="VARCHAR" property="allSpell" />
+    <result column="name_spell" jdbcType="VARCHAR" property="nameSpell" />
+    <result column="name_all_spell" jdbcType="VARCHAR" property="nameAllSpell" />
+    <result column="introduction" jdbcType="VARCHAR" property="introduction" />
+    <result column="sale_status" jdbcType="TINYINT" property="saleStatus" />
+    <result column="is_enabled" jdbcType="TINYINT" property="isEnabled" />
+    <result column="is_removed" jdbcType="TINYINT" property="isRemoved" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="update_time" jdbcType="BIGINT" property="updateTime" />
+    <result column="do_time" jdbcType="BIGINT" property="doTime" />
+    <result column="sync_time" jdbcType="BIGINT" property="syncTime" />
+  </resultMap>
+</mapper>

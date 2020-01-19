@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.SysUserMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.SysUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="create_user_id" jdbcType="BIGINT" property="createUserId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+
+  <select id="findUserByPage" parameterType="org.zhoup.service.dto.QueryDTO" resultMap="BaseResultMap">
+      select * from sys_user
+      <where>
+        <if test="search!=null and search!=''">
+          and username like concat('%',#{search},'%')
+        </if>
+      </where>
+      <if test="sort!=null and sort!=''">
+        order by ${sort} ${order}
+      </if>
+  </select>
+
+    <select id="exportUser" resultType="java.util.Map">
+      select * from sys_user
+    </select>
+
+</mapper>

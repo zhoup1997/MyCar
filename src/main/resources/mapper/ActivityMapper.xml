@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.ActivityMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.Activity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="link" jdbcType="VARCHAR" property="link" />
+    <result column="begin_time" jdbcType="BIGINT" property="beginTime" />
+    <result column="end_time" jdbcType="BIGINT" property="endTime" />
+    <result column="channel_top" jdbcType="TINYINT" property="channelTop" />
+    <result column="home_top" jdbcType="TINYINT" property="homeTop" />
+    <result column="pv_count" jdbcType="INTEGER" property="pvCount" />
+    <result column="uv_count" jdbcType="INTEGER" property="uvCount" />
+    <result column="up_count" jdbcType="INTEGER" property="upCount" />
+    <result column="fav_count" jdbcType="INTEGER" property="favCount" />
+    <result column="publish_state" jdbcType="TINYINT" property="publishState" />
+    <result column="create_uid" jdbcType="INTEGER" property="createUid" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="unpublish_uname" jdbcType="VARCHAR" property="unpublishUname" />
+    <result column="unpublish_time" jdbcType="BIGINT" property="unpublishTime" />
+    <result column="seo_keywords" jdbcType="VARCHAR" property="seoKeywords" />
+    <result column="sdk_path" jdbcType="VARCHAR" property="sdkPath" />
+    <result column="like_count" jdbcType="INTEGER" property="likeCount" />
+    <result column="share_count" jdbcType="INTEGER" property="shareCount" />
+    <result column="view_count" jdbcType="INTEGER" property="viewCount" />
+    <result column="tags" jdbcType="VARCHAR" property="tags" />
+    <result column="cover_pic" jdbcType="VARCHAR" property="coverPic" />
+    <result column="cars" jdbcType="VARCHAR" property="cars" />
+    <result column="sdk_id" jdbcType="INTEGER" property="sdkId" />
+    <result column="sdk_title" jdbcType="VARCHAR" property="sdkTitle" />
+    <result column="dealer" jdbcType="VARCHAR" property="dealer" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+    <result column="seo_description" jdbcType="LONGVARCHAR" property="seoDescription" />
+  </resultMap>
+</mapper>

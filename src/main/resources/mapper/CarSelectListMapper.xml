@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.CarSelectListMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.CarSelectList">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="car_type" jdbcType="VARCHAR" property="carType" />
+    <result column="car_type_bak" jdbcType="BIT" property="carTypeBak" />
+    <result column="msrp_min" jdbcType="DECIMAL" property="msrpMin" />
+    <result column="msrp_max" jdbcType="DECIMAL" property="msrpMax" />
+    <result column="country_type" jdbcType="BIT" property="countryType" />
+    <result column="country_std" jdbcType="BIT" property="countryStd" />
+    <result column="space_std" jdbcType="DECIMAL" property="spaceStd" />
+    <result column="power_std" jdbcType="DECIMAL" property="powerStd" />
+    <result column="comfort_std" jdbcType="DECIMAL" property="comfortStd" />
+    <result column="cost_std" jdbcType="DECIMAL" property="costStd" />
+    <result column="safe_std" jdbcType="DECIMAL" property="safeStd" />
+    <result column="car_id" jdbcType="INTEGER" property="carId" />
+  </resultMap>
+</mapper>

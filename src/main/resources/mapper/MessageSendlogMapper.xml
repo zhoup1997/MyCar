@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.MessageSendlogMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.MessageSendlog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="message_id" jdbcType="BIGINT" property="messageId" />
+    <result column="send_time" jdbcType="BIGINT" property="sendTime" />
+    <result column="to_mid" jdbcType="BIGINT" property="toMid" />
+    <result column="received" jdbcType="INTEGER" property="received" />
+    <result column="receive_time" jdbcType="BIGINT" property="receiveTime" />
+    <result column="viewed" jdbcType="TINYINT" property="viewed" />
+    <result column="view_time" jdbcType="BIGINT" property="viewTime" />
+    <result column="view_detail" jdbcType="TINYINT" property="viewDetail" />
+    <result column="view_detail_time" jdbcType="BIGINT" property="viewDetailTime" />
+  </resultMap>
+</mapper>

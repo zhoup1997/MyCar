@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.OperateLogMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.OperateLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="operate_time" jdbcType="INTEGER" property="operateTime" />
+    <result column="operate_uid" jdbcType="INTEGER" property="operateUid" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="table_disname" jdbcType="VARCHAR" property="tableDisname" />
+    <result column="data_id" jdbcType="BIGINT" property="dataId" />
+    <result column="operate_desc" jdbcType="VARCHAR" property="operateDesc" />
+  </resultMap>
+</mapper>

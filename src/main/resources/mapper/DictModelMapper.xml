@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.DictModelMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.DictModel">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="model_name" jdbcType="VARCHAR" property="modelName" />
+    <result column="model_id" jdbcType="INTEGER" property="modelId" />
+    <result column="msrp_min" jdbcType="INTEGER" property="msrpMin" />
+    <result column="space" jdbcType="TINYINT" property="space" />
+    <result column="power" jdbcType="TINYINT" property="power" />
+    <result column="comfort" jdbcType="TINYINT" property="comfort" />
+    <result column="cost" jdbcType="TINYINT" property="cost" />
+    <result column="safety" jdbcType="TINYINT" property="safety" />
+  </resultMap>
+</mapper>

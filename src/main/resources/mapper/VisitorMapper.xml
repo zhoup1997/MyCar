@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.VisitorMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.Visitor">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="visitor_guid" jdbcType="VARCHAR" property="visitorGuid" />
+    <result column="first_visit_time" jdbcType="BIGINT" property="firstVisitTime" />
+    <result column="entry_url" jdbcType="VARCHAR" property="entryUrl" />
+    <result column="visitor_ip" jdbcType="VARCHAR" property="visitorIp" />
+    <result column="visitor_device" jdbcType="VARCHAR" property="visitorDevice" />
+    <result column="visitor_channel" jdbcType="VARCHAR" property="visitorChannel" />
+  </resultMap>
+</mapper>

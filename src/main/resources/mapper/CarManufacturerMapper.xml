@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhoup.service.mapper.CarManufacturerMapper">
+  <resultMap id="BaseResultMap" type="org.zhoup.service.entity.CarManufacturer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="manufacturer_name" jdbcType="VARCHAR" property="manufacturerName" />
+    <result column="make_id" jdbcType="INTEGER" property="makeId" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+  </resultMap>
+</mapper>
