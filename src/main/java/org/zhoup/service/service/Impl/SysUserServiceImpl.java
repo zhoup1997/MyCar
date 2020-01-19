@@ -14,13 +14,7 @@ import org.zhoup.service.dto.QueryDTO;
 import org.zhoup.service.entity.SysUser;
 import org.zhoup.service.mapper.SysUserMapper;
 import org.zhoup.service.service.SysUserService;
-import org.zhoup.service.utils.DateUtils;
-import org.zhoup.service.utils.R;
 
-import java.lang.reflect.Array;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -43,6 +37,12 @@ public class SysUserServiceImpl implements SysUserService {
         DataGridResult result = new DataGridResult(total, pageInfo.getList());
         return result;
     }
+    //单用户查找
+    public SysUser findUserByUsername(String username){
+        SysUser sysUser = sysUserMapper.selectByPrimaryKey(username);
+        return sysUser;
+    }
+
     //导出用户信息Excel
     @Override
     public Workbook exportUser() {
@@ -52,7 +52,7 @@ public class SysUserServiceImpl implements SysUserService {
         Sheet sheet = workbook.createSheet();
 //        3.标题数组
         String titles[] = {"用户id","用户名","邮箱","电话","创建时间"};
-        String colums[] = {"userId","username","email","mobile","createTime"};
+        String colums[] = {"user_id","username","email","mobile","create_time"};
         //查询数据
         List<Map<String, Object>> maps = sysUserMapper.exportUser();
         //标题行,把标题遍历并且填充进去
@@ -67,7 +67,7 @@ public class SysUserServiceImpl implements SysUserService {
             Row rows = sheet.createRow(i+1);//这个是空的，需要填充数据
             //填充单元格
             for (int j = 0; j < titles.length; j++) {
-                Cell cell = row.createCell(j);
+                Cell cell = rows.createCell(j);
                 //获取用户id的值
                 Map<String, Object> rowValue = maps.get(i);
                 //循环动态设置多个字段的值

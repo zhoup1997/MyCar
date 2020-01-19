@@ -10,8 +10,8 @@ import org.zhoup.service.entity.SysMenu;
 import org.zhoup.service.mapper.SysMenuMapper;
 import org.zhoup.service.service.SysMenuService;
 import org.zhoup.service.utils.R;
-import tk.mybatis.mapper.entity.Example;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -37,6 +37,22 @@ public class SysMenuServiceImpl implements SysMenuService {
         DataGridResult result = new DataGridResult(total,sysMenuPageInfo.getList());
         return result;
     }
+
+    @Override
+    public List<String> findPermsByUserId(Long userId) {
+        List<String> perms = sysMenuMapper.findPermsByUserId(userId);
+        List<String> permes = new ArrayList<>();
+        for (String s: perms) {
+            if(s!=null&&!s.equals("")){
+                String[] split = s.split(",");
+                for (String s1: split) {
+                    permes.add(s1);
+                }
+            }
+        }
+        return perms;
+    }
+
     //批量删除
     @Override
     public R deleteByIds(String ids) {

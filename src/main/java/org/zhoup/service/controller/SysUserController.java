@@ -1,6 +1,6 @@
 package org.zhoup.service.controller;
 
-import com.sun.deploy.net.HttpResponse;
+import com.google.code.kaptcha.impl.DefaultKaptcha;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,10 +12,13 @@ import org.zhoup.service.dto.QueryDTO;
 import org.zhoup.service.dto.UserDTO;
 import org.zhoup.service.service.SysUserService;
 import org.zhoup.service.utils.R;
+import org.zhoup.service.utils.ShiroUtils;
 
+import javax.imageio.ImageIO;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 
@@ -25,6 +28,10 @@ public class SysUserController {
 
     @Autowired
     SysUserService sysUserService;
+
+    @Autowired
+    DefaultKaptcha kaptcha;
+
     //分页查询
     @RequestMapping("user/list")
     @ResponseBody
@@ -37,6 +44,27 @@ public class SysUserController {
     @RequestMapping("login")
     public R login(@RequestBody UserDTO userDTO){
         return R.ok();
+    }
+
+
+    @RequestMapping("/captcha.jpg")
+    public void captcha(HttpServletResponse response){
+        // 缓存设置-设置不缓存（可选操作）
+        response.setHeader("Cache-Control","no-store, no-cache");
+        // 设置响应内容
+        response.setContentType("image/jpg");
+        //生成验证码
+        String text = kaptcha.createText();
+        //生成图片
+        BufferedImage image = kaptcha.createImage(text);
+        //将验证码存储到shiro的session中
+        ShiroUtils.setKaptcha(text);
+        try {
+            ServletOutputStream outputStream = response.getOutputStream();
+            ImageIO.write(image,"jpg",outputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @RequestMapping("/user/export")

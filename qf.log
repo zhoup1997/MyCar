@@ -171,3 +171,5 @@ java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com
 2020-01-19 14:08:38 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
 2020-01-19 14:22:27 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
 2020-01-19 14:23:46 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-19 15:44:36 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-19 15:53:56 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
