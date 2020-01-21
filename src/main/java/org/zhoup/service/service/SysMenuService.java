@@ -14,6 +14,10 @@ public interface SysMenuService {
 
     List<String> findPermsByUserId(Long userId);
 
+    R findMenuNotButtonByUserId(Long userId);
+
+    R findMenuByUserId(Long userId);
+
     R deleteByIds(String ids);
 
     R findMenuTree();

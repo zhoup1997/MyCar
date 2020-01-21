@@ -1,175 +1,57 @@
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:09:24 com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2083) DruidDataSource.java ERROR create connection error, url: ${jdbc.connectionURL}, errorCode 0, state null
-java.sql.SQLException: connect error, url ${jdbc.connectionURL}, driverClass com.mysql.jdbc.Driver
-	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1520)
-	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
-2020-01-14 22:10:20 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-16 17:05:15 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 17:18:14 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 17:43:25 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 17:45:43 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 17:47:12 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 17:49:49 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 17:52:02 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:16:54 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:19:12 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:20:15 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:21:15 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:22:42 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:56:08 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 18:56:57 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 19:00:07 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 19:07:02 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 19:12:19 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 19:12:44 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-17 19:36:41 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:41:23 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:42:51 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:45:41 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:46:53 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:50:29 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:53:43 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:55:34 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:56:54 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 16:59:44 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:01:47 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:04:04 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:04:55 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:06:23 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:07:48 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:08:41 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:09:34 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:14:57 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:15:44 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 17:35:55 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 18:23:39 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 18:38:43 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 18:47:01 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-18 18:59:12 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 12:08:22 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 14:06:22 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 14:08:38 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 14:22:27 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 14:23:46 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 15:44:36 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
-2020-01-19 15:53:56 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 17:43:01 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 17:43:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-21 17:43:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-21 17:43:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-21 17:43:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-21 17:43:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-21 17:43:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-21 17:43:34 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-21 17:43:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-21 17:45:22 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 17:45:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-21 17:45:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-21 17:45:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-21 17:45:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-21 17:45:25 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-21 17:45:25 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-21 17:45:43 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-21 17:45:43 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-21 17:45:49 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-21 17:54:19 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 17:54:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-21 17:54:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-21 17:54:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-21 17:54:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-21 17:54:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-21 17:54:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-21 17:54:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-21 17:54:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-21 17:57:03 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 17:57:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-21 17:57:04 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-21 17:57:04 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-21 17:57:04 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-21 17:57:04 org.zhoup.service.log.MyLogAdvice.myafterRet(MyLogAdvice.java:42) MyLogAdvice.java INFO Tue Jan 21 17:57:04 CST 2020|一级菜单查询|0:0:0:0:0:0:0:1|[]|org.zhoup.service.controller.MenuController.findMenuByUserId
+2020-01-21 17:57:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-21 17:57:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-21 17:57:15 org.zhoup.service.log.MyLogAdvice.myafterRet(MyLogAdvice.java:42) MyLogAdvice.java INFO Tue Jan 21 17:57:15 CST 2020|菜单分页查询|0:0:0:0:0:0:0:1|[{"limit":10,"offset":0,"order":"asc"}]|org.zhoup.service.controller.MenuController.findMenuByPage
+2020-01-21 22:18:28 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 22:18:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-21 22:18:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-21 22:18:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-21 22:18:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-21 22:18:28 org.zhoup.service.log.MyLogAdvice.myafterRet(MyLogAdvice.java:42) MyLogAdvice.java INFO Tue Jan 21 22:18:28 CST 2020|一级菜单查询|0:0:0:0:0:0:0:1|[]|org.zhoup.service.controller.MenuController.findMenuByUserId
+2020-01-21 22:18:31 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-21 22:18:31 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-21 22:18:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-21 22:18:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-21 22:19:58 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-21 22:19:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-21 22:19:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-21 22:19:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-21 22:19:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-21 22:19:59 org.zhoup.service.log.MyLogAdvice.myafterRet(MyLogAdvice.java:42) MyLogAdvice.java INFO Tue Jan 21 22:19:59 CST 2020|一级菜单查询|0:0:0:0:0:0:0:1|[]|org.zhoup.service.controller.MenuController.findMenuByUserId
+2020-01-21 22:20:00 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-21 22:20:00 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-21 22:20:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-21 22:20:02 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache

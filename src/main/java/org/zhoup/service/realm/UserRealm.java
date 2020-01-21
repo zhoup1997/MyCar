@@ -27,9 +27,9 @@ public class UserRealm extends AuthorizingRealm {
 
     //认证
     @Override
-    protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
+    protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         //这里是拿到的用户名密码
-        UsernamePasswordToken usernamePasswordToken = (UsernamePasswordToken)authenticationToken;
+        UsernamePasswordToken usernamePasswordToken = (UsernamePasswordToken)token;
         String username = usernamePasswordToken.getUsername();
         String password = new String(usernamePasswordToken.getPassword());
         //这里是数据库查询到的用户信息

@@ -14,6 +14,7 @@ import org.zhoup.service.dto.QueryDTO;
 import org.zhoup.service.entity.SysUser;
 import org.zhoup.service.mapper.SysUserMapper;
 import org.zhoup.service.service.SysUserService;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 import java.util.Map;
@@ -37,10 +38,13 @@ public class SysUserServiceImpl implements SysUserService {
         DataGridResult result = new DataGridResult(total, pageInfo.getList());
         return result;
     }
+
     //单用户查找
     public SysUser findUserByUsername(String username){
-        SysUser sysUser = sysUserMapper.selectByPrimaryKey(username);
-        return sysUser;
+        Example example = new Example(SysUser.class);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andEqualTo("username",username);
+        return sysUserMapper.selectOneByExample(example);
     }
 
     //导出用户信息Excel

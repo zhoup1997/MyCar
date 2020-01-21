@@ -11,6 +11,16 @@ public class UserDTO {
     private String captcha;
     private boolean rememberMe;
 
+    @Override
+    public String toString() {
+        return "UserDTO{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", captcha='" + captcha + '\'' +
+                ", rememberMe=" + rememberMe +
+                '}';
+    }
+
     public String getUsername() {
         return username;
     }

@@ -13,6 +13,7 @@ import org.zhoup.service.utils.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -51,6 +52,30 @@ public class SysMenuServiceImpl implements SysMenuService {
             }
         }
         return perms;
+    }
+
+
+    //查询一级菜单目录
+    @Override
+    public R findMenuByUserId(Long userId) {
+        List<Map<String, Object>> menuByUserId = sysMenuMapper.findMenuByUserId(userId);
+        return R.ok().put("menuList",menuByUserId);
+    }
+
+    //查询用户一级目录下的子菜单
+    @Override
+    public R findMenuNotButtonByUserId(Long userId) {
+        //先查询一级菜单
+        List<Map<String, Object>> menuByUserId = sysMenuMapper.findMenuByUserId(userId);
+        //查询目录对应的子菜单
+        for (Map<String, Object> map : menuByUserId) {
+            Long parentId = Long.parseLong(map.get("menuId")+"");
+            List<Map<String, Object>> subList = sysMenuMapper.findMenuNotButtonByUserId(userId,parentId);
+            map.put("list",subList);
+        }
+        //查询权限
+        List<String> permsByUserId = sysMenuMapper.findPermsByUserId(userId);
+        return R.ok().put("menuList",menuByUserId).put("permissions",permsByUserId);
     }
 
     //批量删除
