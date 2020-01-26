@@ -13,6 +13,9 @@ import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
+/**
+ * Tag标签的Service层
+ */
 @Service
 public class TagServiceImpl implements TagService {
 
@@ -33,23 +36,23 @@ public class TagServiceImpl implements TagService {
         return dataGridResult;
     }
 
-    @Override
+    @Override//添加标签
     public int addTag(Tag tag) {
-        return 0;
+        return  tagMapper.insert(tag);
     }
 
-    @Override
+    @Override//批量删除
     public int delTagByIds(String ids) {
-        return 0;
+        return tagMapper.deleteByIds(ids);
     }
 
     @Override
     public Tag findTagById(Integer id) {
-        return null;
+        return tagMapper.selectByPrimaryKey(id);
     }
 
     @Override
     public int updateTag(Tag tag) {
-        return 0;
+        return tagMapper.updateByPrimaryKey(tag);
     }
 }

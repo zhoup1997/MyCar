@@ -56,7 +56,7 @@ $(function(){
 var ztree;
 
 var vm = new Vue({
-    el:'#dtapp',
+	el:'#dtapp',
     data:{
         showList: true,
         title: null,
@@ -114,6 +114,7 @@ var vm = new Vue({
                 vm.showList = false;
                 vm.title = "修改";
                 vm.menu = r.menu;
+
                 vm.getMenu();
             });
         },

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.zhoup.service.dto.DataGridResult;
 import org.zhoup.service.dto.QueryDTO;
 import org.zhoup.service.entity.SysMenu;
-import org.zhoup.service.log.MyLog;
 import org.zhoup.service.service.SysMenuService;
 import org.zhoup.service.utils.R;
 import org.zhoup.service.utils.ShiroUtils;
@@ -23,7 +22,6 @@ public class MenuController {
 
 
     //查询一级菜单一级子菜单
-    @MyLog("一级菜单查询")
     @RequestMapping("sys/menu/user")
     @ResponseBody
     public R findMenuByUserId(){
@@ -31,7 +29,6 @@ public class MenuController {
         return sysMenuService.findMenuNotButtonByUserId(userId);
     }
 
-    @MyLog("菜单分页查询")
     //分页查询
     @RequestMapping("sys/menu/list")
     @ResponseBody
@@ -41,7 +38,6 @@ public class MenuController {
 
 
     //批量删除
-    @MyLog("删除菜单")
     @RequestMapping("/sys/menu/del")
     @ResponseBody
     public R deleteIds(@RequestBody String ids){
@@ -49,7 +45,6 @@ public class MenuController {
     }
 
     //加载菜单树
-    @MyLog("加载菜单树")
     @RequestMapping("/sys/menu/select")
     @ResponseBody
     public R menuTree(){
@@ -57,7 +52,6 @@ public class MenuController {
     }
 
     //添加菜单
-    @MyLog("添加菜单")
     @RequestMapping("/sys/menu/save")
     @ResponseBody
     public R saveMenu(@RequestBody SysMenu sysMenu){
@@ -72,7 +66,6 @@ public class MenuController {
     }
 
     //修改
-    @MyLog("修改菜单")
     @RequestMapping("/sys/menu/update")
     @ResponseBody
     public R updateMenu(@RequestBody SysMenu sysMenu){

@@ -11,9 +11,7 @@ import org.zhoup.service.mapper.SysMenuMapper;
 import org.zhoup.service.service.SysMenuService;
 import org.zhoup.service.utils.R;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  *
@@ -38,21 +36,24 @@ public class SysMenuServiceImpl implements SysMenuService {
         DataGridResult result = new DataGridResult(total,sysMenuPageInfo.getList());
         return result;
     }
-
+    /** 查询用户权限  */
     @Override
     public List<String> findPermsByUserId(Long userId) {
-        List<String> perms = sysMenuMapper.findPermsByUserId(userId);
-        List<String> permes = new ArrayList<>();
-        for (String s: perms) {
+        List<String> permsByUserId = sysMenuMapper.findPermsByUserId(userId);
+        Set<String> set = new HashSet<String>();
+        for (String s : permsByUserId) {
             if(s!=null&&!s.equals("")){
                 String[] split = s.split(",");
-                for (String s1: split) {
-                    permes.add(s1);
+                for (String s1 : split) {
+                    set.add(s1);
                 }
             }
         }
+        List<String> perms = new ArrayList<>();
+        perms.addAll(set);
         return perms;
     }
+
 
 
     //查询一级菜单目录
@@ -69,12 +70,12 @@ public class SysMenuServiceImpl implements SysMenuService {
         List<Map<String, Object>> menuByUserId = sysMenuMapper.findMenuByUserId(userId);
         //查询目录对应的子菜单
         for (Map<String, Object> map : menuByUserId) {
-            Long parentId = Long.parseLong(map.get("menuId")+"");
-            List<Map<String, Object>> subList = sysMenuMapper.findMenuNotButtonByUserId(userId,parentId);
+            Long menuId = Long.parseLong(map.get("menuId")+"");
+            List<Map<String, Object>> subList = sysMenuMapper.findMenuNotButtonByUserId(userId,menuId);
             map.put("list",subList);
         }
         //查询权限
-        List<String> permsByUserId = sysMenuMapper.findPermsByUserId(userId);
+        List<String> permsByUserId = findPermsByUserId(userId);
         return R.ok().put("menuList",menuByUserId).put("permissions",permsByUserId);
     }
 

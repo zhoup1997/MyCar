@@ -14,50 +14,49 @@ import org.zhoup.service.service.SysMenuService;
 import org.zhoup.service.service.SysUserService;
 
 import java.util.List;
-
 @Component
 public class UserRealm extends AuthorizingRealm {
 
     @Autowired
-    SysMenuService sysMenuService;
+    private SysUserService sysUserService;
     @Autowired
-    SysUserService sysUserService;
+    private RoleService roleService;
     @Autowired
-    RoleService roleService;
+    private SysMenuService menuService;
 
     //认证
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
-        //这里是拿到的用户名密码
+        //得到用户名和密码
         UsernamePasswordToken usernamePasswordToken = (UsernamePasswordToken)token;
         String username = usernamePasswordToken.getUsername();
         String password = new String(usernamePasswordToken.getPassword());
-        //这里是数据库查询到的用户信息
-        SysUser sysUser = sysUserService.findUserByUsername(username);
-        if(sysUser==null){
-            throw new UnknownAccountException("账户不存在！");
+        SysUser byUsername = sysUserService.findUserByUsername(username);
+        if(byUsername==null){
+            throw new UnknownAccountException("账户不存在");
         }
-        if(!sysUser.getPassword().equals(password)){
+        if(!byUsername.getPassword().equals(password)){
             throw new IncorrectCredentialsException("密码不正确");
         }
-        if(sysUser.getStatus()==0){
+        if(byUsername.getStatus()==0){
             throw new LockedAccountException("账户被冻结");
         }
-        SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(sysUser, password, this.getName());
+        SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(byUsername,password,this.getName());
         return info;
     }
     //授权
     @Override
-    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principal) {
-        SysUser sysUser = (SysUser)principal.getPrimaryPrincipal();
+    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
+        SysUser sysUser = (SysUser)principals.getPrimaryPrincipal();
         Long userId = sysUser.getUserId();
-        //查询用户的角色
-        List<String> roles = roleService.findRolesByUserId(userId);
+        //用户的角色
+        List<String> rolsByUserID = roleService.findRolesByUserId(userId);
         //用户的菜单权限
-        List<String> perms = sysMenuService.findPermsByUserId(userId);
+        List<String> permsByUserId = menuService.findPermsByUserId(userId);
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-        info.addRoles(roles);
-        info.addStringPermissions(perms);
+        info.addRoles(rolsByUserID);
+        info.addStringPermissions(permsByUserId);
         return info;
     }
+
 }
