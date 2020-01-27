@@ -12,6 +12,15 @@ public class CarParamType {
 
     private Integer state;
 
+    @Override
+    public String toString() {
+        return "CarParamType{" +
+                "id=" + id +
+                ", typeName='" + typeName + '\'' +
+                ", state=" + state +
+                '}';
+    }
+
     /**
      * @return id
      */

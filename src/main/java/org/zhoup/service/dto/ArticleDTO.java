@@ -13,6 +13,23 @@ public class ArticleDTO {
     private Boolean allowUp;
     private Boolean allowFav;
 
+    @Override
+    public String toString() {
+        return "ArticleDTO{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", source='" + source + '\'' +
+                ", summary='" + summary + '\'' +
+                ", author='" + author + '\'' +
+                ", coverPic='" + coverPic + '\'' +
+                ", tags='" + tags + '\'' +
+                ", createTime='" + createTime + '\'' +
+                ", content='" + content + '\'' +
+                ", allowUp=" + allowUp +
+                ", allowFav=" + allowFav +
+                '}';
+    }
+
     public Long getId() {
         return id;
     }

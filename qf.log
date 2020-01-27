@@ -249,3 +249,342 @@
 2020-01-26 18:55:38 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
 2020-01-26 18:55:43 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20010} enter cache
 2020-01-26 18:55:43 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20011} enter cache
+2020-01-27 10:52:33 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 10:52:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 10:52:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 10:52:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 10:52:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 10:52:35 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 10:52:35 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 10:52:36 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 10:52:36 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 10:52:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 10:52:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 10:52:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20010} enter cache
+2020-01-27 10:52:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20011} enter cache
+2020-01-27 11:24:15 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 11:24:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 11:24:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 11:24:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 11:24:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 11:24:18 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 11:24:18 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 11:24:36 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 11:36:46 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 11:36:46 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 11:36:46 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 11:36:46 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 11:36:46 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 11:36:48 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 11:36:48 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:46:03 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 17:46:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 17:46:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 17:46:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 17:46:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 17:46:06 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 17:46:06 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:47:38 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 17:47:38 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 17:47:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 17:47:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 17:47:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 17:47:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 17:47:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:53:49 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 17:53:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 17:53:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 17:53:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 17:53:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 17:53:52 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 17:53:52 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:53:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 17:53:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 17:54:47 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 17:54:47 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 17:54:48 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 17:54:48 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 17:54:48 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 17:54:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 17:54:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:55:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 17:58:26 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 17:58:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 17:58:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 17:58:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 17:58:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 17:58:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 17:58:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:58:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 17:59:24 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 17:59:24 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 17:59:24 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 17:59:24 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 17:59:24 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 17:59:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 17:59:26 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 17:59:31 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 18:02:23 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 18:02:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 18:02:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 18:02:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 18:02:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 18:02:25 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 18:02:25 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 18:02:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 18:04:55 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 18:04:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 18:04:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 18:04:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 18:04:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 18:04:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 18:04:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 18:05:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 18:07:42 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 18:07:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 18:07:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 18:07:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 18:07:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 18:07:44 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 18:07:44 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 18:07:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 18:12:37 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 18:12:37 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 18:12:37 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 18:12:37 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 18:12:37 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 18:12:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 18:12:39 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 18:12:46 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 18:16:41 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 18:16:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 18:16:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 18:16:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 18:16:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 18:16:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 18:16:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 18:16:47 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 18:16:51 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 18:16:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 18:17:02 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 18:17:02 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20010} enter cache
+2020-01-27 18:58:54 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 18:58:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 18:58:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 18:58:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 18:58:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 18:58:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 18:58:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 18:59:02 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 19:05:40 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 19:05:40 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 19:05:40 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 19:05:40 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 19:05:40 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 19:05:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 19:05:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 19:05:44 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 19:07:05 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 19:07:05 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 19:07:05 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 19:07:05 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 19:07:05 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 19:07:07 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 19:07:07 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 19:07:09 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 19:07:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 19:35:56 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 19:35:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 19:35:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 19:35:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 19:35:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 19:40:19 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 19:40:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 19:40:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 19:40:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 19:40:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 19:40:21 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 19:40:21 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 19:40:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 19:40:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 19:40:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 19:42:45 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 19:42:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 19:42:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 19:42:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 19:42:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 19:42:47 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 19:42:47 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 19:42:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 19:42:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 19:43:10 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 19:43:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 19:44:28 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 19:44:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 19:44:28 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 19:44:29 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 19:44:29 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 19:44:30 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 19:44:30 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:01:07 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:01:07 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:01:07 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:01:07 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:01:07 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:01:10 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:01:10 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:04:16 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:04:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:04:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:04:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:04:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:04:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:04:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:04:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 20:04:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 20:05:35 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 20:16:58 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:16:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:16:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:16:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:16:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:17:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:17:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:17:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 20:17:03 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 20:20:30 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:20:30 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:20:31 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:20:31 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:20:31 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:20:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:20:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:21:10 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:21:10 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:21:11 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:21:11 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:21:11 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:21:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:21:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:21:16 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 20:21:16 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 20:21:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 20:22:41 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:22:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:22:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:22:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:22:41 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:22:43 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:22:43 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:22:44 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 20:23:49 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:23:49 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:23:49 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:23:49 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:23:49 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:23:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:23:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:23:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 20:25:19 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:25:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:25:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:25:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:25:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:25:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:25:22 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:25:23 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 20:26:17 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 20:26:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 20:26:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 20:26:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 20:26:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 20:26:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 20:26:20 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 20:26:21 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 21:21:42 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 21:21:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 21:21:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 21:21:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 21:21:42 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 21:21:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 21:21:45 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 21:21:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 21:21:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 21:24:59 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 21:24:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 21:24:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 21:24:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 21:24:59 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 21:25:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 21:25:01 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 21:28:14 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 21:28:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 21:28:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 21:28:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 21:28:14 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 21:29:51 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 21:29:51 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 21:29:52 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 21:29:52 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 21:29:52 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 21:29:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 21:29:55 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 21:29:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 21:29:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 21:29:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 21:29:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 21:31:31 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 21:31:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 21:31:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 21:31:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 21:31:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 21:31:34 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 21:31:34 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 21:31:34 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 21:31:34 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 21:31:35 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 21:31:50 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 21:32:08 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20010} enter cache
+2020-01-27 21:32:08 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20011} enter cache
+2020-01-27 21:32:21 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20012} enter cache
+2020-01-27 21:36:12 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 21:36:12 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 21:36:12 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 21:36:12 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 21:36:12 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 21:36:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 21:36:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 21:36:18 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 21:36:29 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 21:36:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 22:33:54 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 22:33:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 22:33:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 22:33:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 22:33:54 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 22:33:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 22:33:56 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 22:33:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 22:33:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 22:33:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 22:33:57 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 22:33:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20010} enter cache
+2020-01-27 22:33:58 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20011} enter cache
+2020-01-27 22:34:00 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20012} enter cache
+2020-01-27 22:34:09 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20013} enter cache
+2020-01-27 22:34:15 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20014} enter cache
+2020-01-27 22:34:17 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20015} enter cache
+2020-01-27 22:35:32 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:785) DruidDataSource.java INFO {dataSource-1} inited
+2020-01-27 22:35:32 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20000} enter cache
+2020-01-27 22:35:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20001} enter cache
+2020-01-27 22:35:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20002} enter cache
+2020-01-27 22:35:33 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20003} enter cache
+2020-01-27 22:35:38 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20004} enter cache
+2020-01-27 22:35:38 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20005} enter cache
+2020-01-27 22:36:10 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20006} enter cache
+2020-01-27 22:36:16 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20007} enter cache
+2020-01-27 22:36:18 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20008} enter cache
+2020-01-27 22:36:18 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20009} enter cache
+2020-01-27 22:36:19 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20010} enter cache
+2020-01-27 22:36:25 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20011} enter cache
+2020-01-27 22:36:25 com.alibaba.druid.pool.PreparedStatementPool.put(PreparedStatementPool.java:121) PreparedStatementPool.java DEBUG {conn-10005, pstmt-20012} enter cache

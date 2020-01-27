@@ -84,7 +84,9 @@ var vm = new Vue({
             if(id == null){
                 return ;
             }
-
+            $.get("../sys/params/typeall", function(r){
+                vm.sites = r.sites;
+            });
             $.get("../sys/params/info/"+id, function(r){
                 vm.showList = false;
                 vm.title = "修改";

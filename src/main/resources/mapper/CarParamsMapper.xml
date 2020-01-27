@@ -10,4 +10,9 @@
     <result column="type_id" jdbcType="INTEGER" property="typeId" />
     <result column="state" jdbcType="INTEGER" property="state" />
   </resultMap>
+
+  <select id="findCarType" resultType="org.zhoup.service.entity.CarParamType">
+    SELECT id,type_name,state FROM car_param_type
+  </select>
+
 </mapper>

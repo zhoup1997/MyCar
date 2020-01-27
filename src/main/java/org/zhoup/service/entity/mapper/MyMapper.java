@@ -1,5 +1,6 @@
-package tk.mybatis.mapper;
+package org.zhoup.service.entity.mapper;
 
+import tk.mybatis.mapper.common.IdsMapper;
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
 
@@ -13,5 +14,5 @@ import tk.mybatis.mapper.common.MySqlMapper;
  * @version 1.0.0
  * @date 2018/5/29 0:57
  */
-public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
+public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T>{
 }

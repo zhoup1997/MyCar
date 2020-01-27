@@ -1,7 +1,7 @@
 package org.zhoup.service.mapper;
 
 import org.zhoup.service.entity.SysRole;
-import tk.mybatis.mapper.MyMapper;
+import org.zhoup.service.entity.mapper.MyMapper;
 
 import java.util.List;
 

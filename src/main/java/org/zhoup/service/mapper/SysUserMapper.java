@@ -1,8 +1,9 @@
 package org.zhoup.service.mapper;
 
 import org.zhoup.service.dto.QueryDTO;
+import org.zhoup.service.entity.Article;
 import org.zhoup.service.entity.SysUser;
-import tk.mybatis.mapper.MyMapper;
+import org.zhoup.service.entity.mapper.MyMapper;
 import tk.mybatis.mapper.common.IdsMapper;
 
 import java.util.List;

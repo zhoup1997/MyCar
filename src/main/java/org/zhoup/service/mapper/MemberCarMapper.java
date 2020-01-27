@@ -1,7 +1,7 @@
 package org.zhoup.service.mapper;
 
 import org.zhoup.service.entity.MemberCar;
-import tk.mybatis.mapper.MyMapper;
+import org.zhoup.service.entity.mapper.MyMapper;
 
 public interface MemberCarMapper extends MyMapper<MemberCar> {
 }

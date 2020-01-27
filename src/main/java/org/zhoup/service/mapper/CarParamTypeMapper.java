@@ -1,7 +1,8 @@
 package org.zhoup.service.mapper;
 
 import org.zhoup.service.entity.CarParamType;
-import tk.mybatis.mapper.MyMapper;
+import org.zhoup.service.entity.mapper.MyMapper;
+import tk.mybatis.mapper.common.IdsMapper;
 
-public interface CarParamTypeMapper extends MyMapper<CarParamType> {
+public interface CarParamTypeMapper extends MyMapper<CarParamType>, IdsMapper<CarParamType> {
 }

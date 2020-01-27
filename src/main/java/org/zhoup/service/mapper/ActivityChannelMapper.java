@@ -1,7 +1,7 @@
 package org.zhoup.service.mapper;
 
 import org.zhoup.service.entity.ActivityChannel;
-import tk.mybatis.mapper.MyMapper;
+import org.zhoup.service.entity.mapper.MyMapper;
 
 public interface ActivityChannelMapper extends MyMapper<ActivityChannel> {
 }
